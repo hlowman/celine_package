@@ -62,6 +62,25 @@
 
 # Chapter 3: Object documentation (man/)
 
+# Documentation acts as a sort of dictionary for the package.
+
+# Basic steps consist of : adding roxygen comments to the .R files, convert roxygen comments to .Rd files, preview the documentation, and then rinse/repeat until it looks the way you want.
+
+# roxygen comments are made using #' instead of the usual #.
+
+# The first line becomes the title, the second becomes the description, and the third + paragraphs go into the details.
+
+# Other important tags include:
+# @param - describes function's inputs or parameters (it appears each parameter shoudl be on a new line)
+# @examples - how to use the function in practice (however it seems examples can be in listed format)
+# @return description - describes the output
+
+# TEXT FORMATTING REFERENCE SHEET
+
+# Describes how to edit text to be bold, etc. and insert links to other urls or documentation.
+
+# Chapter 4: Vignettes: long-form documentation (vignettes/)
+
 # 
 
 # TIPS FOR SUBMITTING TO CRAN:
