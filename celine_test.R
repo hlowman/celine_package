@@ -49,10 +49,25 @@
 
 # Chapter 2: Package metadata (DESCRIPTION)
 
-# At a minimum, your description file will indicate which packages are needed to run your package, who can use it (license), and who to contact with a problem.
+# At a minimum, your description file will indicate which packages are needed to run your package (imports and suggests, specify versions if necessary), who can use it (license), and who to contact with a problem.
+# Title includes package name and one-line description. Description should be no longer than a paragraph.
 
-#
+# AUTHOR: WHO ARE YOU?
+
+# Four important roles to define: creator (cre) aka the person to bother with problems, authors (aut) who've contributed significantly to the package, contributors (ctb) who've made smaller contributions, and copyright holder (cph) if the copyright is held by someone other than the author (i.e., their employer).
+
+# VERSION
+
+# Version numbers should consist of three numbers, <major>.<minor>.<patch> (e.g., 1.2.3).
+
+# Chapter 3: Object documentation (man/)
+
+# 
 
 # TIPS FOR SUBMITTING TO CRAN:
 
 # (1) You may only use ASCII characters in your .R files.
+# (2) When listing your e-mail address, make sure it's one at which you can be contacted long into the future.
+# (3) You must pick a standard license to release a package to CRAN.
+# (4) 
+# (5)
